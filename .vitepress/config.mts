@@ -6,6 +6,7 @@ export default defineConfig({
   
   title: "Batman Cave",
   description: "Archive",
+  base: '/batcavetg.github.io/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
