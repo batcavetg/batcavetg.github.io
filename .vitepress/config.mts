@@ -3,17 +3,15 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  
-  title: "Batman Cave",
+  title: "BatCave Archive",
   description: "Archive",
   base: '/batcavetg.github.io/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'BatCave Archive',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
     sidebar: [
       {
         text: 'Examples',
@@ -23,7 +21,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
